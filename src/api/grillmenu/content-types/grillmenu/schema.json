@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "grillmenus",
+  "info": {
+    "singularName": "grillmenu",
+    "pluralName": "grillmenus",
+    "displayName": "grillmenu",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "grillmenuimage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "productname": {
+      "type": "string"
+    },
+    "grildescription": {
+      "type": "text"
+    },
+    "price": {
+      "type": "integer"
+    }
+  }
+}

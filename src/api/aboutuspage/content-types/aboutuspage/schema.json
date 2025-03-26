@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "aboutuspages",
+  "info": {
+    "singularName": "aboutuspage",
+    "pluralName": "aboutuspages",
+    "displayName": "aboutuspage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "herophoto": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "burgerphoto": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "text": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "ownerphoto": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "ownername": {
+      "type": "string"
+    }
+  }
+}
